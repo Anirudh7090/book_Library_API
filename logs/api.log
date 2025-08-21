@@ -1,0 +1,140 @@
+2025-08-21 19:28:44,869 - INFO - Incoming request: GET http://127.0.0.1:8000/
+2025-08-21 19:28:44,869 - INFO - Completed request: GET http://127.0.0.1:8000/ with status 404
+2025-08-21 19:28:44,960 - INFO - Incoming request: GET http://127.0.0.1:8000/favicon.ico
+2025-08-21 19:28:44,961 - INFO - Completed request: GET http://127.0.0.1:8000/favicon.ico with status 404
+2025-08-21 19:29:04,269 - INFO - Incoming request: GET http://127.0.0.1:8000/
+2025-08-21 19:29:04,270 - INFO - Completed request: GET http://127.0.0.1:8000/ with status 404
+2025-08-21 19:29:04,303 - INFO - Incoming request: GET http://127.0.0.1:8000/favicon.ico
+2025-08-21 19:29:04,303 - INFO - Completed request: GET http://127.0.0.1:8000/favicon.ico with status 404
+2025-08-21 19:32:39,897 - INFO - Incoming request: GET http://127.0.0.1:8000/
+2025-08-21 19:32:39,898 - INFO - Completed request: GET http://127.0.0.1:8000/ with status 404
+2025-08-21 19:32:49,890 - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-08-21 19:32:49,890 - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2025-08-21 19:32:49,967 - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-08-21 19:32:49,974 - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2025-08-21 19:33:40,715 - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-08-21 19:33:40,716 - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2025-08-21 19:33:40,793 - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-08-21 19:33:40,793 - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2025-08-21 19:44:29,604 - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-08-21 19:44:29,605 - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2025-08-21 19:44:29,682 - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-08-21 19:44:29,682 - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2025-08-21 19:59:15,767 - INFO - Incoming request: POST http://127.0.0.1:8000/books/
+2025-08-21 19:59:15,771 - INFO - Completed request: POST http://127.0.0.1:8000/books/ with status 422
+2025-08-21 19:59:35,658 - INFO - Incoming request: POST http://127.0.0.1:8000/books/
+2025-08-21 19:59:35,660 - INFO - Completed request: POST http://127.0.0.1:8000/books/ with status 422
+2025-08-21 20:00:43,762 - INFO - Incoming request: GET http://127.0.0.1:8000/books/1
+2025-08-21 20:00:43,769 - INFO - Completed request: GET http://127.0.0.1:8000/books/1 with status 404
+2025-08-21 20:01:00,714 - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-08-21 20:01:00,714 - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2025-08-21 20:01:00,828 - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-08-21 20:01:00,829 - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2025-08-21 20:03:26,481 - INFO - Incoming request: POST http://127.0.0.1:8000/books/
+2025-08-21 20:03:26,483 - INFO - Completed request: POST http://127.0.0.1:8000/books/ with status 422
+2025-08-21 20:07:37,792 - INFO - Incoming request: POST http://127.0.0.1:8000/books/
+2025-08-21 20:07:37,795 - INFO - Completed request: POST http://127.0.0.1:8000/books/ with status 422
+2025-08-21 20:14:52,695 - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-08-21 20:14:52,695 - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2025-08-21 20:14:52,809 - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-08-21 20:14:52,815 - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2025-08-21 20:16:39,272 - INFO - Incoming request: POST http://127.0.0.1:8000/books/
+2025-08-21 20:16:39,288 - INFO - Created book 'The Great Gatsby' by F. Scott Fitzgerald
+2025-08-21 20:16:39,289 - INFO - Completed request: POST http://127.0.0.1:8000/books/ with status 200
+2025-08-21 20:18:44,659 - INFO - Incoming request: GET http://127.0.0.1:8000/books/1
+2025-08-21 20:18:44,669 - INFO - Completed request: GET http://127.0.0.1:8000/books/1 with status 200
+2025-08-21 20:19:43,270 - INFO - Incoming request: GET http://127.0.0.1:8000/books/?skip=0&limit=10&search=The%20Great%20Gatsby
+2025-08-21 20:19:43,280 - INFO - Completed request: GET http://127.0.0.1:8000/books/?skip=0&limit=10&search=The%20Great%20Gatsby with status 200
+2025-08-21 20:20:27,133 - INFO - Incoming request: DELETE http://127.0.0.1:8000/books/1
+2025-08-21 20:20:27,146 - INFO - Deleted book id 1
+2025-08-21 20:20:27,147 - INFO - Completed request: DELETE http://127.0.0.1:8000/books/1 with status 200
+2025-08-21 20:20:39,923 - INFO - Incoming request: GET http://127.0.0.1:8000/books/1
+2025-08-21 20:20:39,925 - INFO - Completed request: GET http://127.0.0.1:8000/books/1 with status 404
+2025-08-21 20:22:10,513 - INFO - Incoming request: POST http://127.0.0.1:8000/books/
+2025-08-21 20:22:10,526 - INFO - Created book 'Avengers' by Anirudh
+2025-08-21 20:22:10,527 - INFO - Completed request: POST http://127.0.0.1:8000/books/ with status 200
+2025-08-21 20:23:23,874 - INFO - Incoming request: POST http://127.0.0.1:8000/books/
+2025-08-21 20:23:23,883 - INFO - Created book 'Conjuring' by Sohan
+2025-08-21 20:23:23,885 - INFO - Completed request: POST http://127.0.0.1:8000/books/ with status 200
+2025-08-21 20:24:29,490 - INFO - Incoming request: POST http://127.0.0.1:8000/books/
+2025-08-21 20:24:29,498 - INFO - Created book 'Thor' by Anant
+2025-08-21 20:24:29,499 - INFO - Completed request: POST http://127.0.0.1:8000/books/ with status 200
+2025-08-21 20:25:13,401 - INFO - Incoming request: POST http://127.0.0.1:8000/books/
+2025-08-21 20:25:13,413 - INFO - Created book 'Black Widow' by Anirudh
+2025-08-21 20:25:13,415 - INFO - Completed request: POST http://127.0.0.1:8000/books/ with status 200
+2025-08-21 20:26:34,823 - INFO - Incoming request: POST http://127.0.0.1:8000/books/
+2025-08-21 20:26:34,833 - INFO - Created book 'Iron Man' by Arsh
+2025-08-21 20:26:34,835 - INFO - Completed request: POST http://127.0.0.1:8000/books/ with status 200
+2025-08-21 20:27:10,739 - INFO - Incoming request: GET http://127.0.0.1:8000/books/?skip=0&limit=10&author=Anirudh
+2025-08-21 20:27:10,742 - INFO - Completed request: GET http://127.0.0.1:8000/books/?skip=0&limit=10&author=Anirudh with status 200
+2025-08-21 20:48:21,144 - INFO - Incoming request: POST http://127.0.0.1:8000/books/
+2025-08-21 20:48:21,154 - INFO - Created book 'Iron Man 2' by Anirudh
+2025-08-21 20:48:21,155 - INFO - Completed request: POST http://127.0.0.1:8000/books/ with status 200
+2025-08-21 20:48:40,793 - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-08-21 20:48:40,793 - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2025-08-21 20:48:40,915 - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-08-21 20:48:40,915 - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2025-08-21 20:49:05,842 - INFO - Incoming request: GET http://127.0.0.1:8000/books/?skip=0&limit=10&search=Anirudh
+2025-08-21 20:49:05,845 - INFO - Completed request: GET http://127.0.0.1:8000/books/?skip=0&limit=10&search=Anirudh with status 200
+2025-08-21 20:50:12,544 - INFO - Incoming request: GET http://127.0.0.1:8000/books/1
+2025-08-21 20:50:12,547 - INFO - Completed request: GET http://127.0.0.1:8000/books/1 with status 200
+2025-08-21 20:50:35,134 - INFO - Incoming request: GET http://127.0.0.1:8000/books/1
+2025-08-21 20:50:35,136 - INFO - Completed request: GET http://127.0.0.1:8000/books/1 with status 200
+2025-08-21 20:51:03,469 - INFO - Incoming request: GET http://127.0.0.1:8000/books/?skip=0&limit=10&search=Avengers
+2025-08-21 20:51:03,471 - INFO - Completed request: GET http://127.0.0.1:8000/books/?skip=0&limit=10&search=Avengers with status 200
+2025-08-21 20:51:56,005 - INFO - Incoming request: GET http://127.0.0.1:8000/books/1?Avengers=1
+2025-08-21 20:51:56,007 - INFO - Completed request: GET http://127.0.0.1:8000/books/1?Avengers=1 with status 200
+2025-08-21 20:52:07,270 - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-08-21 20:52:07,270 - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2025-08-21 20:52:07,394 - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-08-21 20:52:07,395 - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2025-08-21 20:52:16,463 - INFO - Incoming request: GET http://127.0.0.1:8000/books/?skip=0&limit=10&search=Avengers
+2025-08-21 20:52:16,466 - INFO - Completed request: GET http://127.0.0.1:8000/books/?skip=0&limit=10&search=Avengers with status 200
+2025-08-21 20:53:00,783 - INFO - Incoming request: GET http://127.0.0.1:8000/books/2
+2025-08-21 20:53:00,785 - INFO - Completed request: GET http://127.0.0.1:8000/books/2 with status 200
+2025-08-21 20:53:16,847 - INFO - Incoming request: GET http://127.0.0.1:8000/books/1
+2025-08-21 20:53:16,849 - INFO - Completed request: GET http://127.0.0.1:8000/books/1 with status 200
+2025-08-21 20:53:26,767 - INFO - Incoming request: GET http://127.0.0.1:8000/books/1
+2025-08-21 20:53:26,768 - INFO - Completed request: GET http://127.0.0.1:8000/books/1 with status 200
+2025-08-21 20:54:31,011 - INFO - Incoming request: DELETE http://127.0.0.1:8000/books/1
+2025-08-21 20:54:31,034 - INFO - Deleted book id 1
+2025-08-21 20:54:31,035 - INFO - Completed request: DELETE http://127.0.0.1:8000/books/1 with status 200
+2025-08-21 20:55:03,612 - INFO - Incoming request: DELETE http://127.0.0.1:8000/books/1
+2025-08-21 20:55:03,614 - INFO - Completed request: DELETE http://127.0.0.1:8000/books/1 with status 404
+2025-08-21 20:55:08,524 - INFO - Incoming request: GET http://127.0.0.1:8000/books/1
+2025-08-21 20:55:08,527 - INFO - Completed request: GET http://127.0.0.1:8000/books/1 with status 404
+2025-08-21 20:55:20,009 - INFO - Incoming request: GET http://127.0.0.1:8000/books/1
+2025-08-21 20:55:20,011 - INFO - Completed request: GET http://127.0.0.1:8000/books/1 with status 404
+2025-08-21 20:55:27,642 - INFO - Incoming request: GET http://127.0.0.1:8000/books/2
+2025-08-21 20:55:27,644 - INFO - Completed request: GET http://127.0.0.1:8000/books/2 with status 200
+2025-08-21 21:09:42,285 - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-08-21 21:09:42,286 - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2025-08-21 21:09:42,343 - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-08-21 21:09:42,349 - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2025-08-21 21:11:18,516 - INFO - Incoming request: PATCH http://127.0.0.1:8000/books/2
+2025-08-21 21:11:18,537 - INFO - Completed request: PATCH http://127.0.0.1:8000/books/2 with status 200
+2025-08-21 21:11:42,347 - INFO - Incoming request: GET http://127.0.0.1:8000/books/2
+2025-08-21 21:11:42,349 - INFO - Completed request: GET http://127.0.0.1:8000/books/2 with status 200
+2025-08-21 21:12:42,413 - INFO - Incoming request: PATCH http://127.0.0.1:8000/books/2
+2025-08-21 21:12:42,424 - INFO - Completed request: PATCH http://127.0.0.1:8000/books/2 with status 200
+2025-08-21 21:16:21,695 - INFO - Incoming request: PATCH http://127.0.0.1:8000/books/2
+2025-08-21 21:16:21,703 - INFO - Completed request: PATCH http://127.0.0.1:8000/books/2 with status 200
+2025-08-21 22:11:30,109 - INFO - Incoming request: GET http://127.0.0.1:8000/docs
+2025-08-21 22:11:30,109 - INFO - Completed request: GET http://127.0.0.1:8000/docs with status 200
+2025-08-21 22:11:30,178 - INFO - Incoming request: GET http://127.0.0.1:8000/openapi.json
+2025-08-21 22:11:30,185 - INFO - Completed request: GET http://127.0.0.1:8000/openapi.json with status 200
+2025-08-21 22:11:56,022 - INFO - Incoming request: GET http://127.0.0.1:8000/books/2
+2025-08-21 22:11:56,031 - INFO - Completed request: GET http://127.0.0.1:8000/books/2 with status 404
+2025-08-21 22:13:45,077 - INFO - Incoming request: POST http://127.0.0.1:8000/books/
+2025-08-21 22:13:45,080 - INFO - Completed request: POST http://127.0.0.1:8000/books/ with status 422
+2025-08-21 22:14:30,694 - INFO - Incoming request: POST http://127.0.0.1:8000/books/
+2025-08-21 22:14:30,714 - INFO - Created book 'Iron Man 2' by Anirudh
+2025-08-21 22:14:30,714 - INFO - Completed request: POST http://127.0.0.1:8000/books/ with status 200
+2025-08-21 22:15:07,972 - INFO - Incoming request: GET http://127.0.0.1:8000/books/1
+2025-08-21 22:15:07,973 - INFO - Completed request: GET http://127.0.0.1:8000/books/1 with status 200
+2025-08-21 22:16:06,613 - INFO - Incoming request: PATCH http://127.0.0.1:8000/books/1
+2025-08-21 22:16:06,623 - INFO - Completed request: PATCH http://127.0.0.1:8000/books/1 with status 200
+2025-08-21 22:16:28,693 - INFO - Incoming request: GET http://127.0.0.1:8000/books/1
+2025-08-21 22:16:28,693 - INFO - Completed request: GET http://127.0.0.1:8000/books/1 with status 200
+2025-08-21 22:25:04,092 - INFO - Incoming request: GET http://127.0.0.1:8000/books/1
+2025-08-21 22:25:04,096 - INFO - Completed request: GET http://127.0.0.1:8000/books/1 with status 200
