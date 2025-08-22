@@ -1,11 +1,11 @@
 import logging
 import os
 
-# Create logs directory if not exists
+
 LOG_DIR = "logs"
 os.makedirs(LOG_DIR, exist_ok=True)
 
-# Configure logging settings
+
 logging.basicConfig(
     filename=os.path.join(LOG_DIR, "api.log"),
     level=logging.INFO,
