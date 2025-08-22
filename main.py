@@ -8,17 +8,17 @@ import json
 import models, schemas, crud, utils
 from db import SessionLocal, engine, Base
 
-# Create tables in database if not exist
+
 Base.metadata.create_all(bind=engine)
 
 app = FastAPI(title="Book Library Management API")
 
-# Folder to store uploaded book cover images
+
 STATIC_DIR = "static"
 os.makedirs(STATIC_DIR, exist_ok=True)
 
 
-# Dependency to get DB session per request
+
 def get_db():
     db = SessionLocal()
     try:
@@ -27,7 +27,7 @@ def get_db():
         db.close()
 
 
-# Log middleware example (optional, or you can use utils.log_info inside routes)
+
 @app.middleware("http")
 async def log_requests(request, call_next):
     utils.log_info(f"Incoming request: {request.method} {request.url}")
@@ -42,11 +42,11 @@ def create_book(
         cover_image: Optional[UploadFile] = File(None),
         db: Session = Depends(get_db)
 ):
-    # Parse JSON string to dict and then to Pydantic schema
+    
     book_data = json.loads(book)
     book_obj = schemas.BookCreate(**book_data)
 
-    # Handle cover image upload if provided
+    
     if cover_image:
         file_location = f"{STATIC_DIR}/{cover_image.filename}"
         with open(file_location, "wb") as buffer:
@@ -69,7 +69,7 @@ def list_books(
 ):
     if search:
         return crud.search_books(db, search, skip, limit)
-    # Additional filtering by genre and author
+    
     query = db.query(models.Book)
     if genre:
         query = query.filter(models.Book.genre.ilike(f"%{genre}%"))
