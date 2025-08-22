@@ -1,8 +1,8 @@
 from sqlalchemy import Column, Integer, String
-from db import Base  # Import the Base class from db.py
+from db import Base  
 
 class Book(Base):
-    __tablename__ = "books"  # Table name in the database
+    __tablename__ = "books"  
 
     id = Column(Integer, primary_key=True, index=True)  # Primary key, auto-incrementing
     title = Column(String, index=True, nullable=False)
